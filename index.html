@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightBlog</title>
+</head>
+<body>
+    <header>
+        <!-- the content of the header goes here  -->
+         <h1 id="logo"> BrightBlog</h1>
+         <nav>
+            <ul id="nav-ul">
+                <li><a href="https://www.brightnetwork.co.uk/couch-to-coder-2024-lesson-1/" class="navbutton">Home</a></li>
+                <li> <a href="https://www.brightnetwork.co.uk/couch-to-coder-lesson-3/" class="navbutton">Contact</a></li>
+            </ul>
+         </nav>
+    </header>
+    <main>
+        <div id="main-content">
+            <aside>
+                <section>
+                    <h4>Filter by month</h4>
+                    <nav>
+                        <ul>
+                            <li><a href=""></a>Filter for January - June </li>
+                            <li><a href=""></a>Filter for July to December</li>
+                        </ul>
+                    </nav>
+                </section>
+                <section> 
+                    <h4>Filter by catagory</h4>
+                    <nav>
+                        <ul>
+                            <li><a href=""></a>goldfish</li>
+                            <li><a href=""></a>clownfish</li>
+                        </ul>
+                    </nav>
+                </section>
+            </aside>
+            <div>
+                <article>
+                    <header>
+                     <!--- Articles header goes here-->
+                     <h2>10 amazing facts about fish</h2>
+                     <h3>read time: 5 mins</h3>
+                    </header> 
+                    <main>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo sunt non quod! Voluptate possimus ullam sequi qui quia inventore atque, accusantium dolore labore, provident, esse placeat magnam itaque culpa tenetur recusandae enim fuga. Molestiae fuga adipisci et illum praesentium ab laboriosam cumque tempora deleniti nesciunt. Blanditiis suscipit minus facere cumque a in magnam tenetur, at eveniet quo corrupti, eos officia similique vel expedita aliquid, reprehenderit laudantium accusantium dolorum mollitia? Sint aliquid debitis eaque numquam tempora error repudiandae sapiente eos dolore ducimus consequuntur doloribus nisi veritatis quam fugit mollitia praesentium tenetur, sit similique at, maiores delectus reprehenderit illo magni! Laudantium, ullam.</p>
+                     <blockquote>
+                         ''I like goldfosh!'' - <cite> Someone, 2024</cite>
+                     </blockquote>
+                    </main>
+                    <footer>
+                     <h2>Author: Beena Patel</h2>
+                     <img src="https://placebear.com/200/200" alt="A picture of a random bear">
+                     <h3>Last editied: 21/08/2024</h3>
+                     <a href="https://www.brightnetwork.co.uk/couch-to-coder-lesson-2/" target="_blank">Author's profile</a>
+                    </footer>
+                 </article>
+                 <article>
+                    <header>
+                     <!--- Articles header goes here-->
+                     <h2>10 amazing facts about fish</h2>
+                     <h3>read time: 5 mins</h3>
+                    </header> 
+                    <main>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo sunt non quod! Voluptate possimus ullam sequi qui quia inventore atque, accusantium dolore labore, provident, esse placeat magnam itaque culpa tenetur recusandae enim fuga. Molestiae fuga adipisci et illum praesentium ab laboriosam cumque tempora deleniti nesciunt. Blanditiis suscipit minus facere cumque a in magnam tenetur, at eveniet quo corrupti, eos officia similique vel expedita aliquid, reprehenderit laudantium accusantium dolorum mollitia? Sint aliquid debitis eaque numquam tempora error repudiandae sapiente eos dolore ducimus consequuntur doloribus nisi veritatis quam fugit mollitia praesentium tenetur, sit similique at, maiores delectus reprehenderit illo magni! Laudantium, ullam.</p>
+                     <blockquote>
+                         ''I like goldfosh!'' - <cite> Someone, 2024</cite>
+                     </blockquote>
+                    </main>
+                    <footer>
+                     <h2>Author: Beena Patel</h2>
+                     <img src="https://placebear.com/200/200" alt="A picture of a random bear">
+                     <h3>Last editied: 21/08/2024</h3>
+                     <a href="https://www.brightnetwork.co.uk/couch-to-coder-lesson-2/" target="_blank">Author's profile</a>
+                    </footer>
+                 </article>
+            </div>
+        </div>
+        <!-- main content of the website goes here  -->
+         
+         <h2>sign up for our newsletter </h2>
+         <form action="" method="">
+            <label for="first_name">First name:</label>
+            <input type="text" id="first_name" name="first_name" required>
+            <br>
+            
+            <label for="last_name">Last name:</label>
+            <input type="text" id="last_name" name="last_name" required>
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <br>
+            
+            <label for="favourite_animal">Favourite animal:</label>
+            <input type="radio" name="favourite_animal" id="fish" value="fish">
+            <label for="fish">fish</label>
+            <input type="radio" name="favourite_animal" id="cat" value="cat">
+            <label for="cat">cat</label>
+            <input type="radio" name="favourite_animal" id="dog" value="dog">
+            <label for="dog">dog</label>
+            <br>
+
+            <label for="country">country:</label>
+            <select name="country" id="country">
+                <option value="england">England</option>
+                <option value="scotland">scotland</option>
+                <option value="wales">wales</option>
+                <option value="northen_ireland">northen ireland</option>
+            </select>
+            <br>
+
+            <label for="bio">Bio</label>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            <br>
+
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe"> subscribe to our newsletter</label>
+            <br>
+            
+            <input type="submit" value="send">
+
+        </form>
+    </main>
+    <footer>
+        <h2>brightblogsite</h2>
+        <section>
+            <nav>
+                <ul id="footer-ul">
+                    <div>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Contact</a></li>
+                    </div>
+                    
+                    <div>
+                        <li><a href="">Private Policy</a></li>
+                        <li><a href="">Terms and Conditions</a></li>
+                        <li><a href="">Cookie Policy</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </section>
+        <!-- footer goes here  -->
+    </footer>
+</body>
+</html>
